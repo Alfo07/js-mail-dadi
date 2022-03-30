@@ -1,0 +1,19 @@
+body{
+    background-color:#25526B;
+}
+
+.disactive{
+    display: none;
+}
+
+#mail-list i{
+    font-size: 30px;
+    vertical-align: middle;
+    color: white;
+}
+
+#dice div p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}

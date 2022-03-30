@@ -11,7 +11,34 @@
     <title>Gioco dei dadi</title>
 </head>
 <body>
-    
+    <!-- MAIL-CHECK -->
+    <div id="mail-list" class="container">
+        <h1 class="text-light">Inserisci la mail</h1>
+        <input type="email" name="email" id="email">
+        <i id="mail-check1" class="fa-solid fa-envelope"></i>
+        <i id="mail-check2" class="fa-solid fa-envelope-circle-check disactive"></i>
+        <i id="retry" class="fa-solid fa-square-xmark disactive"></i>
+        <br>
+        <button id="Enter" class="btn btn-light mt-3">Accedi</button>
+    </div>
+
+    <!-- GIOCO DEI DADI -->
+    <div id="dice" class="container">
+        <h1 class="text-light mt-5">Tenta la fortuna!</h1>
+        <button id="Tiro" class="btn btn-light my-3">Lancio</button>
+        <div id="numero-giocatore">
+
+        </div>
+        <div id="numero-computer">
+
+        </div>
+        <div id="vincitore">
+
+        </div>
+    </div>
+
+
+
     <script src="./js/script.js"></script>
 </body>
 </html>
